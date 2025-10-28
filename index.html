@@ -1,1 +1,60 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><title>React App</title><script defer="defer" src="/static/js/main.357c01d7.js"></script><link href="/static/css/main.e1ff02a9.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" />
+        <title></title>
+    </head>
+    <body>
+        <aside id="menu">
+            <div id="fending">
+                <h1>FENDING</h1>
+                <div id="menu-container">
+                    <ul id="todo-list"></ul>
+                </div>
+            </div>
+            <div id="finished">
+                <h1>FINISHED</h1>
+                <div id="finished-container">
+                    <ul id="finished-list"></ul>
+                </div>
+            </div>
+        </aside>
+        <section>
+            <div id="momentum">
+                <!-- <div id="weather-container">
+                    <div id="weather">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img>
+                </div> -->
+                <!-- <form id="login-form">
+                    <input required maxlength="15" type="text" placeholder="What is your name?"/>
+                    <button>Log In</button>
+                </form> -->
+                <h2 id="clock">00:00:00</h2>
+                <!-- <h1 class="hidden" id="greeting"></h1> -->
+                <form id="todo-form">
+                    <input type="text" placeholder="Write a To Do and Press Enter" required />
+                </form>
+
+                <div id="quote">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <button id="motionWall"></button>
+
+                <script src="js/todo.js"></script>
+                
+                <script src="js/background.js"></script>
+                <script src="js/greetings.js"></script>
+                <script src="js/clock.js"></script>
+                <script src="js/quotes.js"></script>
+                <!-- <script src="js/weather.js"></script> -->
+            </div>
+        </section>
+    </body>
+</html>
